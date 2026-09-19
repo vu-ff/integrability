@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 500" width="1800" height="500" fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round" font-family="Charter, 'Bitstream Charter', 'Sitka Text', Cambria, Georgia, 'DejaVu Serif', serif">
+<!-- The page-top blackboard. Used as a CSS mask (black = ink), so its colour comes from the theme. Formulas are from Lectures 1-12, in the course's frozen conventions (notes/notation-bible.md S1): omega = sum dq ^ dp in that order, df/dt = {f,H}, X_{f,g} = -[X_f,X_g], Ldot = [M,L], the RTT order of L8 (eq:8:RTT). -->
+<g stroke="none">
+<text x="40" y="70" font-size="36" font-style="italic" transform="rotate(-2 40 70)">ω = Σ dq<tspan baseline-shift="sub" font-size="0.7em">i</tspan> ∧ dp<tspan baseline-shift="sub" font-size="0.7em">i</tspan></text>
+<text x="52" y="118" font-size="24" font-style="italic" transform="rotate(-1 52 118)">ι<tspan baseline-shift="sub" font-size="0.7em">X<tspan font-size="0.8em">f</tspan></tspan> ω = df,     df/dt = {f, H}</text>
+<text x="40" y="176" font-size="28" font-style="italic" transform="rotate(1 40 176)">X<tspan baseline-shift="sub" font-size="0.7em">{f,g}</tspan> = −[X<tspan baseline-shift="sub" font-size="0.7em">f</tspan>, X<tspan baseline-shift="sub" font-size="0.7em">g</tspan>]</text>
+<text x="40" y="240" font-size="28" font-style="italic" transform="rotate(-1 40 240)">{F<tspan baseline-shift="sub" font-size="0.7em">i</tspan>, F<tspan baseline-shift="sub" font-size="0.7em">j</tspan>} = 0,  Σ compact  ⟹  Σ ≅ T<tspan baseline-shift="super" font-size="0.62em">n</tspan></text>
+<text x="52" y="296" font-size="24" font-style="italic" transform="rotate(1 52 296)">I<tspan baseline-shift="sub" font-size="0.7em">i</tspan> = (1/2π) ∮<tspan baseline-shift="sub" font-size="0.7em">γ<tspan font-size="0.8em">i</tspan></tspan> p · dq</text>
+<text x="40" y="356" font-size="28" font-style="italic" transform="rotate(-1 40 356)">k · ν(I) = 0</text>
+<text x="52" y="410" font-size="22" font-style="italic" transform="rotate(1 52 410)">H = ½ Σ p<tspan baseline-shift="sub" font-size="0.7em">n</tspan><tspan baseline-shift="super" font-size="0.62em">2</tspan> + Σ e<tspan baseline-shift="super" font-size="0.62em">q<tspan font-size="0.8em">n</tspan> − q<tspan font-size="0.8em">n+1</tspan></tspan></text>
+<text x="730" y="440" font-size="22" font-style="italic" text-anchor="middle">q</text>
+<text x="600" y="120" font-size="22" font-style="italic" text-anchor="middle">p</text>
+<text x="1010" y="250" font-size="30" font-style="italic" transform="rotate(-1 1010 250)">L̇ = [M, L],    tr L<tspan baseline-shift="super" font-size="0.62em">k</tspan> conserved</text>
+<text x="1020" y="304" font-size="22" font-style="italic" transform="rotate(1 1020 304)">det(λ − L(z)) = t(λ) − (z + 1/z)</text>
+<text x="1000" y="430" font-size="26" font-style="italic" transform="rotate(-1 1000 430)">T = L<tspan baseline-shift="sub" font-size="0.7em">N</tspan> ⋯ L<tspan baseline-shift="sub" font-size="0.7em">1</tspan></text>
+<text x="1300" y="72" font-size="30" font-style="italic" transform="rotate(-1 1300 72)">{L<tspan baseline-shift="sub" font-size="0.7em">1</tspan>, L<tspan baseline-shift="sub" font-size="0.7em">2</tspan>} = [r<tspan baseline-shift="sub" font-size="0.7em">12</tspan>, L<tspan baseline-shift="sub" font-size="0.7em">1</tspan>] − [r<tspan baseline-shift="sub" font-size="0.7em">21</tspan>, L<tspan baseline-shift="sub" font-size="0.7em">2</tspan>]</text>
+<text x="1312" y="126" font-size="22" font-style="italic" transform="rotate(1 1312 126)">[r<tspan baseline-shift="sub" font-size="0.7em">12</tspan>, r<tspan baseline-shift="sub" font-size="0.7em">13</tspan>] + [r<tspan baseline-shift="sub" font-size="0.7em">12</tspan>, r<tspan baseline-shift="sub" font-size="0.7em">23</tspan>] + [r<tspan baseline-shift="sub" font-size="0.7em">13</tspan>, r<tspan baseline-shift="sub" font-size="0.7em">23</tspan>] = 0</text>
+<text x="1300" y="184" font-size="26" font-style="italic" transform="rotate(-1 1300 184)">R(λ) = 1 + iħ r(λ) + O(ħ<tspan baseline-shift="super" font-size="0.62em">2</tspan>)</text>
+<text x="1310" y="370" font-size="22" font-style="italic" transform="rotate(1 1310 370)">R<tspan baseline-shift="sub" font-size="0.7em">12</tspan>(λ−μ) T<tspan baseline-shift="sub" font-size="0.7em">2</tspan>(μ) T<tspan baseline-shift="sub" font-size="0.7em">1</tspan>(λ) = T<tspan baseline-shift="sub" font-size="0.7em">1</tspan>(λ) T<tspan baseline-shift="sub" font-size="0.7em">2</tspan>(μ) R<tspan baseline-shift="sub" font-size="0.7em">12</tspan>(λ−μ)</text>
+<text x="1300" y="424" font-size="24" font-style="italic" transform="rotate(-1 1300 424)">H = ½ Σ p<tspan baseline-shift="sub" font-size="0.7em">j</tspan><tspan baseline-shift="super" font-size="0.62em">2</tspan> + g<tspan baseline-shift="super" font-size="0.62em">2</tspan> Σ<tspan baseline-shift="sub" font-size="0.7em">j&lt;k</tspan> V(q<tspan baseline-shift="sub" font-size="0.7em">j</tspan> − q<tspan baseline-shift="sub" font-size="0.7em">k</tspan>)</text>
+</g>
+<g fill="none">
+<!-- a pendulum's phase portrait: librations inside, the separatrix, the axes -->
+<path d="M560 290 L960 290 M760 130 L760 450" stroke-width="1.8"/>
+<ellipse cx="760" cy="290" rx="60" ry="34" stroke-width="2.2"/>
+<ellipse cx="760" cy="290" rx="110" ry="62" stroke-width="2.2"/>
+<path d="M600 290 C 660 190, 860 190, 920 290 C 860 390, 660 390, 600 290 Z" stroke-width="2.6"/>
+<path d="M580 205 C 680 160, 840 160, 940 205 M580 375 C 680 420, 840 420, 940 375" stroke-width="2" stroke-dasharray="8 7"/>
+</g>
+</svg>

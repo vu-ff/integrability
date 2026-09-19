@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>About · Classical and Quantum Integrable Systems</title><meta name="description" content="About this site"><link rel="icon" href="/integrability/favicon.svg"><link rel="alternate" hreflang="en" href="/integrability/en/about"><script>
+      // Applied before first paint, so the page never flashes the wrong theme.
+      (function () {
+        try {
+          var t = localStorage.getItem("integrability-theme");
+          if (t) document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script><link rel="stylesheet" href="/integrability/_astro/about.DXoWHR-D.css"></head> <body> <!-- The page-top blackboard: decoration only, so hidden from assistive
+         technology, search indexing (it is outside main) and print. --> <div class="board" aria-hidden="true"><div class="board-ink"></div></div> <script>
+      // Fade the board out over the first 60% of a screen of scrolling.
+      (function () {
+        var board = document.querySelector(".board"), frame = 0;
+        if (!board) return;
+        function update() {
+          frame = 0;
+          board.style.opacity = String(Math.max(0, 1 - window.scrollY / (window.innerHeight * 0.6)));
+        }
+        window.addEventListener("scroll", function () {
+          if (!frame) frame = requestAnimationFrame(update);
+        }, { passive: true });
+        update();
+      })();
+    </script> <a class="skip-link" href="#main">Skip to content</a> <header class="site-header"> <div class="wrap bar"> <a class="brand" href="/integrability/en/"> Integrable Systems <span>· classical and quantum</span> </a> <nav class="site-nav"> <a href="/integrability/en/"> Lectures </a><a href="/integrability/en/problems"> Problems </a><a href="/integrability/en/literature"> Bibliography </a><a href="/integrability/en/about" aria-current="page"> About </a><a href="/integrability/en/search"> Search </a>   <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch between light and dark theme"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button> </nav> </div> </header> <main class="wrap" id="main" data-pagefind-body="true">  <header class="page-head"> <h1>About this site</h1> <p class="lede"> The companion to Classical and Quantum Integrable Systems — from liouville&#39;s theorem to the bethe ansatz. </p> </header> <div class="prose">  <h2>What is here</h2> <p>13 lectures with 42 definitions, 103 numbered results, 83 proofs, 27 worked examples and 106 figures, and 9 problems on 1 exercise sheet so far. Everything is generated from the same LaTeX source as the printed notes: a theorem here is the same object, with the same number, as the theorem in the PDF, and every number on the site is checked against the typeset volume before the site is built.</p><p>Part II is being written. Its lectures are listed on the home page and open here as each one is finished and reviewed.</p> <h2>How much is proved</h2> <p>The notes are honest about rigour. A result with no tag is proved in full. A result tagged <em>sketched</em> is given with its central idea; one tagged <em>cited</em> is used, and its proof lives in the references. Material marked <em>Reading</em> is studied on your own, and <em>Tutorial</em> material is worked in the tutorial; everything else is the core that is taught in the lecture.</p> <h2>Questions and solutions</h2> <p>An <em>exercise</em> is a question, and a <em>solution</em> is the full worked method. This site is always the questions-only edition: worked solutions are done in the tutorial, which is where the learning in them actually happens.</p><p>They are not merely hidden here. Every solution is deleted from the source text before it reaches the converter, the public sheet PDFs are recompiled as the questions-only variant rather than copied from the repository, and the finished site and every PDF in it are searched for solution material before anything can be published.</p> <h2>Your privacy</h2> <p>There is no account, no login, and nothing is sent anywhere. Your theme choice is remembered in your own browser and nothing else is stored.</p> <h2>Found a mistake?</h2> <p>Please report it. Corrections during a course's first run are genuinely valuable — bring it to a lecture or tutorial and it will be fixed at source and republished.</p> <h2>Colophon</h2> <p>Built as a static site from LaTeX. Pandoc preserves the notes' own definition, theorem, example and remark structure; the printed numbering and every cross-reference are recovered from the source and checked against the typeset volume; KaTeX renders the mathematics at build time with the course's own notation macros, translated automatically from the style file the PDFs load; the diagrams are the same TikZ drawings as in the PDF and the data figures the same generated plots, converted to SVG. The notes are set in Charter, the face the printed notes use. No tracking, no cookies, no third-party requests.</p> <p><a href="/integrability/en/">← Back to the lectures</a></p> </div>  </main> <footer class="site-footer"> <div class="wrap"> <p> Classical and Quantum Integrable Systems — From Liouville&#39;s Theorem to the Bethe Ansatz.
+  Worked solutions are done in the tutorials and are not published here. </p> </div> </footer> <script>
+      document.querySelector("[data-theme-toggle]")?.addEventListener("click", function () {
+        var root = document.documentElement;
+        var current = root.getAttribute("data-theme");
+        if (!current) {
+          current = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        var next = current === "dark" ? "light" : "dark";
+        root.setAttribute("data-theme", next);
+        try { localStorage.setItem("integrability-theme", next); } catch (e) {}
+      });
+    </script> </body> </html>
